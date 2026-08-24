@@ -1,0 +1,54 @@
+name: drunk_mode
+description: Modo Borracho - Seguridad personal y prevención impulsiva
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Design
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  lottie: ^2.7.0
+  
+  # State Management
+  riverpod: ^2.4.9
+  flutter_riverpod: ^2.4.9
+  
+  # Navigation
+  go_router: ^13.0.0
+  
+  # Networking
+  dio: ^5.3.3
+  retrofit: ^4.0.1
+  logger: ^1.4.0
+  
+  # Storage
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+  
+  # Utils
+  intl: ^0.18.1
+  equatable: ^2.0.5
+  flutter_dotenv: ^6.0.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  retrofit_generator: ^7.0.8
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - .env
+    - assets/icons/
+    - assets/images/
+    - assets/animations/
+    - assets/fonts/
